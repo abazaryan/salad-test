@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/salad-test/static/css/main.49232a5d.css",
+    "main.js": "/salad-test/static/js/main.faf38611.js",
+    "static/js/453.6770c941.chunk.js": "/salad-test/static/js/453.6770c941.chunk.js",
+    "index.html": "/salad-test/index.html",
+    "main.49232a5d.css.map": "/salad-test/static/css/main.49232a5d.css.map",
+    "main.faf38611.js.map": "/salad-test/static/js/main.faf38611.js.map",
+    "453.6770c941.chunk.js.map": "/salad-test/static/js/453.6770c941.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49232a5d.css",
+    "static/js/main.faf38611.js"
+  ]
+}
