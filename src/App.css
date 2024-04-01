@@ -1,0 +1,177 @@
+/* App.css */
+
+/* General styling for the body */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Styling for the navigation bar */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00285c;
+  color: white;
+  padding: 10px;
+}
+
+.title {
+  margin: 0;
+}
+
+/* Styling for the question navigator dropdown and buttons */
+.question-navigator {
+  display: flex;
+  align-items: center;
+}
+
+.question-navigator button,
+.question-navigator select {
+  margin-left: 10px;
+  background-color: #0066cc;
+  color: #ffffff;
+  height: 30px;
+  padding: 0px 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.question-navigator button {
+  width: 90px;
+  height: 30px;
+  background-color: #0066cc; /* Set the background color for the Reset button */
+  color: #ffffff;
+ }
+
+.question-navigator button:hover {
+  background-color: #004080;
+  box-shadow: 0 0 15px 0 rgb(0, 40, 92);
+}
+
+/* Styling for the Shuffle checkbox */
+.question-navigator label {
+  display: flex;
+  align-items: center;
+  padding-top: 13px;
+  font-size: 13px; /* Set the font size for the label */
+}
+
+.question-navigator input[type="checkbox"] {
+  margin-right: 5px; /* Add some spacing between the checkbox and label */
+}
+
+/* Container styling for the main content */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  overflow-x: hidden;
+}
+
+/* Styling for the main content area */
+.app-content {
+  width: 80%;
+  height: 450px;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  margin-top: 20px;
+  max-width: 100%;
+  overflow-y: auto;
+  background-color: white;
+  box-shadow: 0 0 15px 0 rgb(53, 101, 164);
+}
+
+h2 {
+  color: #333;
+}
+
+ul {
+  font-weight: bold;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Styling for the options in the quiz */
+li {
+  background-color: #f5f5f5;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+  box-shadow: 0 0 15px 0 rgb(53, 101, 164);
+}
+
+div {
+  text-align: left;
+}
+
+p {
+  color: #333;
+}
+
+/* Styling for error messages */
+.error-message {
+  margin-top: 10px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Additional styles for correct and incorrect messages */
+.correct {
+  background-color: #8bc34a;
+  color: white;
+  border: 2px solid #4caf50;
+}
+
+.incorrect {
+  background-color: #ff6d6d;
+  color: white;
+  border: 2px solid #ff6d6d;
+}
+
+/* Styling for the button container */
+.button-container {
+  margin-top: 20px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between; /* Updated */
+  width: 80%; /* Adjust as needed */
+}
+
+/* Styling for navigation buttons */
+.button-container button {
+  margin-right: 20px;
+  width: 120px;
+  height: 40px;
+  background-color: #00285c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: rgb(0, 112, 192);
+  box-shadow: 0 0 15px 0 rgb(0, 40, 92);
+}
